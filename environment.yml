@@ -1,0 +1,19 @@
+name: daedalus
+channels:
+  - https://conda.anaconda.org/conda-forge
+  - nodefaults
+dependencies:
+  - rust=1.95.0
+  - gcc_linux-64
+  - gxx_linux-64
+  - pkg-config
+  - alsa-lib
+  - alsa-plugins
+  - libudev
+  - xorg-libx11
+  - xorg-libxcursor
+  - xorg-libxi
+  - xorg-libxrandr
+  - libxkbcommon
+  - wayland
+  - libvulkan-loader
